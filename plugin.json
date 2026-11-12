@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "asyntai-ai-chatbot",
+  "version": "1.0.0",
+  "description": "Add an AI chatbot (AI customer support agent and live chat widget) to any website or web app, then run it from your agent: add knowledge, crawl a site, edit instructions, change the widget, read conversations and leads, and reply live to visitors.",
+  "author": {
+    "name": "Asyntai",
+    "email": "hello@asyntai.com",
+    "url": "https://asyntai.com"
+  },
+  "homepage": "https://asyntai.com/documentation/integrations/kiro/",
+  "repository": "https://github.com/asyntai/agent-skills",
+  "license": "MIT",
+  "keywords": ["ai-chatbot", "chatbot", "chat-widget", "live-chat", "customer-support", "support-agent", "asyntai"]
+}

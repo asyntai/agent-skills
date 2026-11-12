@@ -20,6 +20,11 @@ plan.
 
 - **Claude Code**: run `claude mcp add --transport http asyntai https://asyntai.com/mcp`,
   then run `/mcp`, choose `asyntai` and pick **Authenticate**.
+- **Kiro**: the Asyntai power already includes the server. On the first
+  connection Kiro opens the Asyntai sign-in page in the browser.
+- **GitHub Copilot CLI**: the Asyntai plugin (`copilot plugin install
+  asyntai/agent-skills`) already includes the server. On the first connection
+  Copilot opens the Asyntai sign-in page in the browser.
 - **Other agents with remote MCP support** (Cursor, VS Code, Windsurf and
   others): add a remote MCP server with the URL `https://asyntai.com/mcp`.
 - **Agents that can only start a local command**: use the bridge package:

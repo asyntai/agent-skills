@@ -17,6 +17,29 @@ Or install one skill:
 npx skills add asyntai/agent-skills --skill add-ai-chatbot
 ```
 
+### Kiro
+
+This repository is also a Kiro power (Agent Plugins format: `plugin.json`,
+`mcp.json` and the two skills). It brings the Asyntai MCP server with it.
+
+1. In Kiro, open the **Powers** panel and choose **Add Custom Power**.
+2. Choose **Import power from GitHub** and enter
+   `https://github.com/asyntai/agent-skills`.
+3. Ask Kiro something like "Add an AI support chatbot to this site." On the
+   first MCP call Kiro opens the Asyntai sign-in page once.
+
+### GitHub Copilot
+
+The same plugin installs in GitHub Copilot CLI and brings the skills and the
+Asyntai MCP server:
+
+```bash
+copilot plugin install asyntai/agent-skills
+```
+
+Then ask Copilot something like "Add an AI support chatbot to this site." On
+the first MCP call Copilot opens the Asyntai sign-in page once.
+
 ## Skills
 
 | Skill | What it does |
@@ -42,6 +65,17 @@ take over a chat at any time. Create a free account at
 Docs for these skills: [asyntai.com/documentation/integrations/agent-skills](https://asyntai.com/documentation/integrations/agent-skills/)
 
 Install guides: [asyntai.com/documentation/installation](https://asyntai.com/documentation/installation/)
+
+Kiro docs: [asyntai.com/documentation/integrations/kiro](https://asyntai.com/documentation/integrations/kiro/)
+## Privacy policy
+
+[asyntai.com/privacy-policy](https://asyntai.com/privacy-policy/). The skills
+collect nothing. Tool calls go to the Asyntai MCP server at
+`https://asyntai.com/mcp`.
+
+## Support
+
+Email hello@asyntai.com.
 
 ## License
 
